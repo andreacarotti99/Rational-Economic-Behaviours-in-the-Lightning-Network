@@ -1,0 +1,4 @@
+- closing channels randomly means we pick randomly the channels to close
+- if the copied node has a channel that the copier node already have, this channel will be duplicated
+  (so potentially the degree of the copier will decrease if this keep happening since we have double channels between nodes)
+- duplicate_already_present_channel was not yet introduced in these simulations

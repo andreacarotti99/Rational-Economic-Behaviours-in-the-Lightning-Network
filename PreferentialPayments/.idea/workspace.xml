@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6eaecba1-b843-4543-b6a4-35a347a585b9" name="Changes" comment="replication">
+      <change afterPath="$PROJECT_DIR$/path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/continuative_game/changing_both/infinite_simulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/continuative_game/changing_both/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/continuative_game/changing_both/utils/generate_custom_exponential.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/continuative_game/changing_both/utils/open_given_channels_with_new_fee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/first_part/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/first_part/run_merge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph_info/count_fees_distribution.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph_info/count_fees_distribution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph_info/degree_vs_capacity.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph_info/degree_vs_capacity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph_info/export_to_gephi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph_info/extract_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph_info/extract_simple_network_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph_info/extract_scale_free_coefficient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph_info/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snapshots/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snapshots/cosimo_19jan2023.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snapshots/cosimo_19jan2023_converted.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snapshots/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChannelGraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChannelGraph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExportResults.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExportResults.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PathMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/PathMap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Simulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Simulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_channels/deprecated_strategies/db_normalize_fee_and_cap_CHANGINGCHANNELS.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_channels/deprecated_strategies/db_remove_big_fees_edges_CHANGING_CHANNELS.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_channels/deprecated_strategies/db_remove_small_cap_edges_CHANGING_CHANNELS.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_channels/deprecated_strategies/resultsRead.me" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_channels/deprecated_strategies/runGame.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_channels/deprecated_strategies/strategy1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_channels/deprecated_strategies/strategy2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_channels/deprecated_strategies/strategy3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_channels/results_singlefunded_perturbation20nodes/channels_alfa0.001_unif.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_channels/results_singlefunded_perturbation20nodes/channels_alfa0.0_unif.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_channels/results_singlefunded_perturbation20nodes/channels_alfa0.1_unif.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_channels/results_singlefunded_perturbation20nodes/queries_for_results.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/continuative_game/changing_channels/results_singlefunded_perturbation20nodes/queries_for_results.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_channels/results_singlefunded_perturbation20nodes/read_node_degree_distribution.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/continuative_game/changing_channels/results_singlefunded_perturbation20nodes/read_node_degree_distribution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_channels/results_singlefunded_perturbation20nodes/read_results_change_channels.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/continuative_game/changing_channels/results_singlefunded_perturbation20nodes/read_results_change_channels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_channels/results_singlefunded_perturbationALLnodes/channels_alfa0.0_unif.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_channels/results_singlefunded_perturbationALLnodes/read_node_degree_distribution.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/continuative_game/changing_channels/results_singlefunded_perturbationALLnodes/read_node_degree_distribution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_channels/results_singlefunded_perturbationALLnodes/read_results_change_channels.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/continuative_game/changing_channels/results_singlefunded_perturbationALLnodes/read_results_change_channels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_channels/run_infinite_simulation_channels_pick20nodeschangeALL.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/continuative_game/changing_channels/infinite_simulation_channels_pick20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_channels/run_infinite_simulation_channels_pickALLnodeschangeONE.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/continuative_game/changing_channels/infinite_simulation_channels_pickALL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_channels/run_pick20.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/continuative_game/changing_channels/run_pick20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_channels/run_pickALL.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/continuative_game/changing_channels/run_pickALL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/deprecated_strategies/deprecated strategies/Strategy1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/deprecated_strategies/deprecated strategies/Strategy2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/deprecated_strategies/deprecated strategies/runGame.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/deprecated_strategies/results with path cost limit (5%) random fee [1,500]/db_remove_big_fees_edges.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/deprecated_strategies/results without path cost limit (5%)/db_normalize_fee_and_cap.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/deprecated_strategies/results without path cost limit (5%)/db_remove_big_fees_edges.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/deprecated_strategies/results without path cost limit (5%)/db_remove_small_cap_edges.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/results_perturbation20nodes/fees_alfa0.001_unif.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/results_perturbation20nodes/fees_alfa0.001_weig.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/results_perturbation20nodes/fees_alfa0.0_unif.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/results_perturbation20nodes/fees_alfa0.0_weig.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/results_perturbation20nodes/fees_alfa0.1_unif.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/results_perturbation20nodes/fees_alfa0.1_weig.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/results_perturbation20nodes/read_results_change_fees.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/continuative_game/changing_fees/results_perturbation20nodes/read_results_change_fees.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/results_perturbationALLnodes/fees_alfa0.001_unif_ALL.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/results_perturbationALLnodes/fees_alfa0.001_unif_ALL_old.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/results_perturbationALLnodes/fees_alfa0.001_weig_ALL.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/results_perturbationALLnodes/fees_alfa0.0_unif_ALL.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/results_perturbationALLnodes/fees_alfa0.0_unif_ALL_old.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/results_perturbationALLnodes/fees_alfa0.0_weig_ALL.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/results_perturbationALLnodes/fees_alfa0.1_unif_ALL.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/results_perturbationALLnodes/fees_alfa0.1_unif_ALL_old.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/results_perturbationALLnodes/fees_alfa0.1_weig_ALL.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/results_perturbationALLnodes/read_results_change_fees.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/continuative_game/changing_fees/results_perturbationALLnodes/read_results_change_fees.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/changing_fees/run_infinite_simulation_fees.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/continuative_game/changing_fees/run_infinite_simulation_fees.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/params.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/continuative_game/params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/utils/queries.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/continuative_game/utils/queries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/continuative_game/utils/queries_for_results.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/continuative_game/utils/queries_for_results.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/equilibrium.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/equilibriumEdgeBigFeeRemoved.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/equilibriumEdgeSmallCapRemoved.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/params.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/resultsRead.me" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/modified_node_ratios.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/node_ratios.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_100.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_101.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_21.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_22.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_23.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_24.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_25.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_26.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_27.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_28.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_29.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_31.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_32.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_33.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_34.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_35.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_36.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_37.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_38.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_39.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_41.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_42.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_43.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_44.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_45.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_46.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_47.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_48.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_49.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_50.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_51.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_52.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_53.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_54.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_55.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_56.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_57.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_58.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_59.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_60.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_61.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_62.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_63.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_64.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_65.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_66.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_67.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_68.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_69.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_70.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_71.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_72.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_73.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_74.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_75.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_76.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_77.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_78.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_79.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_80.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_81.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_82.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_83.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_84.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_85.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_86.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_87.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_88.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_89.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_90.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_91.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_92.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_93.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_94.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_95.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_96.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_97.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_98.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_99.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_bigfeeremoved/results_10trans_10000SAT_100mu__distweig_linear_amountsdistfixe_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/modified_node_ratios.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/node_ratios.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_100.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_101.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_21.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_22.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_23.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_24.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_25.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_26.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_27.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_28.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_29.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_31.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_32.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_33.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_34.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_35.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_36.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_37.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_38.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_39.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_41.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_42.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_43.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_44.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_45.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_46.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_47.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_48.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_49.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_50.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_51.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_52.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_53.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_54.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_55.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_56.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_57.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_58.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_59.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_60.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_61.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_62.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_63.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_64.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_65.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_66.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_67.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_68.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_69.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_70.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_71.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_72.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_73.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_74.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_75.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_76.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_77.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_78.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_79.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_80.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_81.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_82.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_83.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_84.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_85.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_86.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_87.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_88.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_89.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_90.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_91.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_92.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_93.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_94.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_95.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_96.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_97.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_98.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_99.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_normalized_alfa0/results_10trans_10000SAT_100mu__distweig_linear_amountsdistfixe_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/modified_node_ratios.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/node_ratios.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_100.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_101.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_21.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_22.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_23.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_24.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_25.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_26.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_27.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_28.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_29.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_31.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_32.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_33.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_34.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_35.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_36.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_37.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_38.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_39.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_41.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_42.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_43.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_44.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_45.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_46.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_47.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_48.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_49.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_50.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_51.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_52.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_53.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_54.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_55.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_56.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_57.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_58.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_59.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_60.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_61.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_62.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_63.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_64.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_65.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_66.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_67.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_68.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_69.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_70.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_71.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_72.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_73.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_74.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_75.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_76.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_77.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_78.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_79.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_80.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_81.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_82.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_83.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_84.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_85.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_86.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_87.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_88.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_89.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_90.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_91.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_92.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_93.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_94.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_95.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_96.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_97.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_98.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_99.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_100_simulations_smallcapremoved/results_10trans_10000SAT_100mu__distweig_linear_amountsdistfixe_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/node_ratios.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_21.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_22.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_23.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_24.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_25.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_26.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_27.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_28.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_29.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_31.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeBigFeeRemoved/first_test_30_total_test/results_10trans_10000SAT_100mu__distweig_linear_amountsdistfixe_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/node_ratios.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_21.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_22.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_23.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_24.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_25.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_26.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_27.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_28.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_29.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_31.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_edgeSmallCapacityRemoved/first_test_30_total_tests/results_10trans_10000SAT_100mu__distweig_linear_amountsdistfixe_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_21.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_22.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_23.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_24.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_25.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_26.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_27.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_28.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_29.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_31.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10000trans_10000SAT_0.0alfa__distweig_linear_amountsdist_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.0/results_10trans_10000SAT_100mu__distweig_linear_amountsdistfixe_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.5/info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.5/results_10000trans_10000SAT_0.5alfa__distweig_linear_amountsdist_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.5/results_10000trans_10000SAT_0.5alfa__distweig_linear_amountsdist_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.5/results_10000trans_10000SAT_0.5alfa__distweig_linear_amountsdist_11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.5/results_10000trans_10000SAT_0.5alfa__distweig_linear_amountsdist_12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.5/results_10000trans_10000SAT_0.5alfa__distweig_linear_amountsdist_13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.5/results_10000trans_10000SAT_0.5alfa__distweig_linear_amountsdist_14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.5/results_10000trans_10000SAT_0.5alfa__distweig_linear_amountsdist_15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.5/results_10000trans_10000SAT_0.5alfa__distweig_linear_amountsdist_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.5/results_10000trans_10000SAT_0.5alfa__distweig_linear_amountsdist_17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.5/results_10000trans_10000SAT_0.5alfa__distweig_linear_amountsdist_18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.5/results_10000trans_10000SAT_0.5alfa__distweig_linear_amountsdist_19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.5/results_10000trans_10000SAT_0.5alfa__distweig_linear_amountsdist_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.5/results_10000trans_10000SAT_0.5alfa__distweig_linear_amountsdist_20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.5/results_10000trans_10000SAT_0.5alfa__distweig_linear_amountsdist_21.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.5/results_10000trans_10000SAT_0.5alfa__distweig_linear_amountsdist_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.5/results_10000trans_10000SAT_0.5alfa__distweig_linear_amountsdist_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.5/results_10000trans_10000SAT_0.5alfa__distweig_linear_amountsdist_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.5/results_10000trans_10000SAT_0.5alfa__distweig_linear_amountsdist_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.5/results_10000trans_10000SAT_0.5alfa__distweig_linear_amountsdist_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.5/results_10000trans_10000SAT_0.5alfa__distweig_linear_amountsdist_8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.5/results_10000trans_10000SAT_0.5alfa__distweig_linear_amountsdist_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/results/results_normalize/alfa0.5/results_10trans_10000SAT_100mu__distweig_linear_amountsdistfixe_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/utils/close_all_channels.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/equilibrium_game/utils/close_all_channels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/utils/edit_all_channels.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/equilibrium_game/utils/edit_all_channels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equilibrium_game/utils/handleLog.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/remove_nodes_game/remove_20hcn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/replicate_strategy_game/HBC/AcquireNodeMeasures.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/replicate_strategy_game/HBC/acquireNodeMeasures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/replicate_strategy_game/HBC/compute_correlation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/replicate_strategy_game/HBC/compute_correlation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/replicate_strategy_game/HBC/identify_node_to_copy.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/replicate_strategy_game/HBC/identify_node_to_copy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/replicate_strategy_game/HBC/results/read_results_HBC_provide_HCN.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/replicate_strategy_game/HBC/results/read_results_HBC_provide_HCN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/replicate_strategy_game/HBC/run_replication.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/replicate_strategy_game/HBC/run_replication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/replicate_strategy_game/HRN/analyze_ratios.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/replicate_strategy_game/HRN/analyze_ratios.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/replicate_strategy_game/HRN/results/read_results_HRN_provide_HCN.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/replicate_strategy_game/HRN/results/read_results_HRN_provide_HCN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/replicate_strategy_game/HRN/run_replication.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/replicate_strategy_game/HRN/run_replication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/AllPairsDijkstraPathTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CapacityDistributionTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CapacityDistributionTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ChannelGraphFees.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ChannelGraphFees.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ChannelGraphTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ChannelTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ChannelTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CloseAllChannelsTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CountSingleFunded.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/EditChannelTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FeeDistributionTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FeeDistribution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/GenerateExponentialFeeTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/GenerateExponentialFeeTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/GetChannelTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/GetChannelTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/GetHCNFromPath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/GetNodeMeanTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/LeastCapacity.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/MinimumCapacity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/MedianFeeTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/MedianFeeTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/MempoolChannelBalanceTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/MempoolExtrapolateChannelData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/NetworkInfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/NormalizeWeightTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/NormalizedWeightSimulationTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/PaymentTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Run_replicationTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/SimulationTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/SortCsv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/analyzeDegreeDistribution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/countChannels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_copy/count_zero_routings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_copy/greedy_demands/weighted/alfa0.0_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_copy/print_buckets_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_copy/show_results_first_part_paper_NO-0-routings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_copy/show_results_first_part_paper_with0routings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_copy/show_results_without_bucketing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/DemandTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/first_part/run_simulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/bucket_df.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/read_results.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.0/Figure_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.0/Figure_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.0/bucketed_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.0/bucketed_data_100.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.0/bucketed_data_125alfa0.0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.0/bucketed_data_200alfa0.0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.0/final_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.0/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.0/merge_df.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.0/results_10000trans_10000SAT_0.0alfa__distunif_None_amountsdist_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.001/Figure_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.001/Figure_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.001/bucketed_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.001/bucketed_data_100.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.001/bucketed_data_125alfa0.001.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.001/bucketed_data_200alfa0.001.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.001/final_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.001/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.001/merge_df.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.001/results_10000trans_10000SAT_0.001alfa_unifdist_Nonefunc_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.005/_Figure_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.005/_Figure_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.005/bucketed_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.005/bucketed_data_100.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.005/bucketed_data_125alfa0.005.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.005/bucketed_data_200alfa0.005.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.005/final_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.005/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.005/results_10000trans_10000SAT_0.005alfa_unifdist_Nonefunc_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.01/Figure_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.01/Figure_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.01/bucketed_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.01/bucketed_data_100.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.01/bucketed_data_125alfa0.01.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.01/bucketed_data_200alfa0.01.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.01/final_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.01/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.01/merge_df.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.01/results_10000trans_10000SAT_0.01alfa_unifdist_Nonefunc_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.05/_Figure_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.05/bucketed_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.05/bucketed_data_100.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.05/bucketed_data_125alfa0.05.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.05/bucketed_data_200alfa0.05.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.05/final_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.05/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.05/results_10000trans_10000SAT_0.05alfa_unifdist_Nonefunc_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.1/Figure_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.1/Figure_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.1/bucketed_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.1/bucketed_data_100.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.1/bucketed_data_125alfa0.1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.1/bucketed_data_200alfa0.1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.1/final_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.1/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/alfa0.1/results_10000trans_10000SAT_0.1alfa_unifdist_Nonefunc_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/avgRatio_vs_buckets_100_uniform_varyingalfa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/avgRatio_vs_buckets_125_uniform_varyingalfa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/avgRatio_vs_buckets_200_uniform_varyingalfa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/avgRatio_vs_buckets_200_uniform_varyingalpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/ratio_vs_rank_uniform_varyingalpha_ax^2+bx+cinterpol.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/uniform/read_uniform_results.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/avgRatio_vs_buckets_weightedlinear_50groupedbycapacity_varyingalpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/cubic/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/cubic/results_10000trans_10000SAT_0.0alfa_weigdist_cubicfunc_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/linear/alfa0.0/bucketed_data_50.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/linear/alfa0.0/final_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/linear/alfa0.0/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/linear/alfa0.0/results_10000trans_10000SAT_0.0alfa_weigdist_linearfunc_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/linear/alfa0.001/bucketed_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/linear/alfa0.001/bucketed_data_50.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/linear/alfa0.001/final_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/linear/alfa0.001/results_10000trans_10000SAT_0.001alfa_weigdist_linearfunc_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/linear/alfa0.005/results_10000trans_10000SAT_0.005alfa_weigdist_linearfunc_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/linear/alfa0.01/bucketed_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/linear/alfa0.01/bucketed_data_50.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/linear/alfa0.01/final_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/linear/alfa0.01/results_10000trans_10000SAT_0.01alfa_weigdist_linearfunc_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/linear/alfa0.01/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/linear/alfa0.05/results_10000trans_10000SAT_0.05alfa_weigdist_linearfunc_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/linear/alfa0.1/bucketed_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/linear/alfa0.1/bucketed_data_50.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/linear/alfa0.1/final_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/linear/alfa0.1/results_10000trans_10000SAT_0.1alfa_weigdist_linearfunc_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/linear/read_weighted_results.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/merge_df.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/quadratic/final_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/quadratic/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/quadratic/merge_df.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/quadratic/results_10000trans_10000SAT_0.0alfa_weigdist_quadraticfunc_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/ratio_vs_rank_weightedlinear_ax+binterpol.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_greedy/weighted_by_capacity/wrong_read_weighted_results.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/bucket_df.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/first_part/run_bucket.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/merge_df.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/read_results.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/uniform/mu0/bucketed_data_200_mu0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/uniform/mu0/bucketed_data_50_mu0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/uniform/mu0/final_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/uniform/mu0/results_10000trans_10000SAT_0mu_distunif_amountdistfixe_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/uniform/mu1/bucketed_data_200_mu1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/uniform/mu1/bucketed_data_50_mu1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/uniform/mu1/final_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/uniform/mu1/results_10000trans_10000SAT_1mu_distunif_amountdistfixe_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/uniform/mu10/bucketed_data_200_mu10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/uniform/mu10/bucketed_data_50_mu10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/uniform/mu10/final_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/uniform/mu10/results_10000trans_10000SAT_10mu_distunif_amountdistfixe_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/uniform/mu100/bucketed_data_200_mu100.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/uniform/mu100/bucketed_data_50_mu100.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/uniform/mu100/final_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/uniform/mu100/results_10000trans_10000SAT_100mu_distunif_amountdistfixe_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/uniform/mu1000/bucketed_data_200_mu1000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/uniform/mu1000/bucketed_data_50_mu1000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/uniform/mu1000/final_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/uniform/mu1000/results_10000trans_10000SAT_1000mu_distunif_amountdistfixe_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/uniform/read_pickhardt_results.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/weighted_by_capacity/mu0/results_10000trans_10000SAT_0mu__distweig_linear_amountsdistfixe_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/weighted_by_capacity/mu1/results_10000trans_10000SAT_1mu__distweig_linear_amountsdistfixe_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/weighted_by_capacity/mu10/results_10000trans_10000SAT_10mu__distweig_linear_amountsdistfixe_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/weighted_by_capacity/mu100/results_10000trans_10000SAT_100mu__distweig_linear_amountsdistfixe_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/weighted_by_capacity/mu1000/results_10000trans_10000SAT_1000mu__distweig_linear_amountsdistfixe_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/demands_pickhardt/weighted_by_capacity/read_pickhardt_results.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mempoolWhoFInancedTheChannel/channel_data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mempoolWhoFInancedTheChannel/not_all_fetched_channel_data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mempoolWhoFInancedTheChannel/problematic_channel_data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/removeEdgesTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/visualizeChannelGraphTest.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/equilibrium_game/utils/close_all_channels.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/equilibrium_game/utils/open_all_given_channels_randomly.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2UqNjq3IFppyeWsg9N9S4DgiExc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowRun.ShowToolbar": "false",
+    "last_opened_file_path": "/Users/andreacarotti/Desktop/PreferentialPayment_upload/tests/first_part",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/first_part" />
+      <recent name="$PROJECT_DIR$/src/continuative_game/changing_channels/results_singlefunded_perturbation20nodes" />
+      <recent name="$PROJECT_DIR$/tests/demands_copy" />
+      <recent name="$PROJECT_DIR$/src/replicate_strategy_game/HRN/results" />
+      <recent name="$PROJECT_DIR$/src/continuative_game/changing_channels/results_singlefunded_perturbationALLnodes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/first_part" />
+      <recent name="$PROJECT_DIR$/tests/demands_pickhardt" />
+      <recent name="$PROJECT_DIR$/tests/demands_pickhardt/weighted_by_capacity" />
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$/src/continuative_game/changing_channels/results_singlefunded_perturbation20nodes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.analyze_ratios">
+    <configuration name="analyze_ratios" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PreferentialPayment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/replicate_strategy_game/HRN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/replicate_strategy_game/HRN/analyze_ratios.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="compute_correlation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PreferentialPayment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/replicate_strategy_game/HBC" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/replicate_strategy_game/HBC/compute_correlation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="degree_vs_capacity" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PreferentialPayment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/graph_info" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graph_info/degree_vs_capacity.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="path" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PreferentialPayment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/path.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_replication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PreferentialPayment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/replicate_strategy_game/HBC" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/replicate_strategy_game/HBC/run_replication.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.analyze_ratios" />
+      <item itemvalue="Python.compute_correlation" />
+      <item itemvalue="Python.degree_vs_capacity" />
+      <item itemvalue="Python.path" />
+      <item itemvalue="Python.run_replication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.analyze_ratios" />
+        <item itemvalue="Python.run_replication" />
+        <item itemvalue="Python.degree_vs_capacity" />
+        <item itemvalue="Python.compute_correlation" />
+        <item itemvalue="Python.path" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6eaecba1-b843-4543-b6a4-35a347a585b9" name="Changes" comment="" />
+      <created>1693663289394</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693663289394</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Pathmap and payment">
+      <created>1693769635315</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693769635315</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Pathmap and payment">
+      <created>1693866873444</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693866873444</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixed amount sent and alfa on all the edges">
+      <created>1693867348420</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693867348420</updated>
+    </task>
+    <task id="LOCAL-00004" summary="implemented get_cost and get_path">
+      <created>1693915312386</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693915312386</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed errors, payment working">
+      <created>1694699865094</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694699865095</updated>
+    </task>
+    <task id="LOCAL-00006" summary="normalize function, remove edges functions">
+      <created>1694964386895</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694964386895</updated>
+    </task>
+    <task id="LOCAL-00007" summary="equilibrium with edges removal">
+      <created>1695228519352</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695228519352</updated>
+    </task>
+    <task id="LOCAL-00008" summary="refactoring">
+      <created>1695251662103</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695251662103</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix">
+      <created>1695252465494</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695252465494</updated>
+    </task>
+    <task id="LOCAL-00010" summary="refactoring">
+      <created>1695326946673</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695326946673</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix">
+      <created>1695337623576</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695337623576</updated>
+    </task>
+    <task id="LOCAL-00012" summary="implemented infinite game with db">
+      <created>1695742458362</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695742458362</updated>
+    </task>
+    <task id="LOCAL-00013" summary="weight fun">
+      <created>1695750291806</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695750291806</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fixed minor error">
+      <created>1695852857402</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1695852857402</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fixed minor error">
+      <created>1695909407482</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1695909407482</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fixed minor error">
+      <created>1695934521104</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1695934521104</updated>
+    </task>
+    <task id="LOCAL-00017" summary="created changing fees game">
+      <created>1696692832472</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1696692832472</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fixed imports">
+      <created>1696692884624</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1696692884624</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fixed runGame">
+      <created>1696792903202</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1696792903202</updated>
+    </task>
+    <task id="LOCAL-00020" summary="rungame">
+      <created>1697450393025</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1697450393025</updated>
+    </task>
+    <task id="LOCAL-00021" summary="fix on export">
+      <created>1697453275625</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1697453275625</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fix on export">
+      <created>1697618593043</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1697618593044</updated>
+    </task>
+    <task id="LOCAL-00023" summary="bucketing and merging data">
+      <created>1697788916052</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1697788916053</updated>
+    </task>
+    <task id="LOCAL-00024" summary="bucketing and merging data">
+      <created>1697788952907</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1697788952907</updated>
+    </task>
+    <task id="LOCAL-00025" summary="bucketing and merging data">
+      <created>1697878537298</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1697878537298</updated>
+    </task>
+    <task id="LOCAL-00026" summary="bucketing and merging data">
+      <created>1697878550667</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1697878550667</updated>
+    </task>
+    <task id="LOCAL-00027" summary="bucketing and merging data">
+      <created>1697878607937</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1697878607937</updated>
+    </task>
+    <task id="LOCAL-00028" summary="run replication and analyze ratios">
+      <created>1698738194494</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1698738194494</updated>
+    </task>
+    <task id="LOCAL-00029" summary="run replication and analyze ratios">
+      <created>1698846855952</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1698846855952</updated>
+    </task>
+    <task id="LOCAL-00030" summary="visualize results second part">
+      <created>1699090166518</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1699090166518</updated>
+    </task>
+    <task id="LOCAL-00031" summary="node measures">
+      <created>1699261534646</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1699261534646</updated>
+    </task>
+    <task id="LOCAL-00032" summary="node measures">
+      <created>1699602315763</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1699602315763</updated>
+    </task>
+    <task id="LOCAL-00033" summary="fix, moved functions">
+      <created>1699688319639</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1699688319639</updated>
+    </task>
+    <task id="LOCAL-00034" summary="working perturbe a subset of nodes both for the change fees and for the change channels">
+      <created>1700298027889</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1700298027889</updated>
+    </task>
+    <task id="LOCAL-00035" summary="run pick all working">
+      <created>1700302752213</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1700302752213</updated>
+    </task>
+    <task id="LOCAL-00036" summary="run pick all working">
+      <created>1700384528478</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1700384528478</updated>
+    </task>
+    <task id="LOCAL-00037" summary="replication">
+      <created>1700637576327</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1700637576327</updated>
+    </task>
+    <task id="LOCAL-00038" summary="replication">
+      <created>1700813004219</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1700813004219</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Pathmap and payment" />
+    <MESSAGE value="fixed amount sent and alfa on all the edges" />
+    <MESSAGE value="implemented get_cost and get_path" />
+    <MESSAGE value="fixed errors, payment working" />
+    <MESSAGE value="normalize function, remove edges functions" />
+    <MESSAGE value="equilibrium with edges removal" />
+    <MESSAGE value="refactoring" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="implemented infinite game with db" />
+    <MESSAGE value="weight fun" />
+    <MESSAGE value="fixed minor error" />
+    <MESSAGE value="created changing fees game" />
+    <MESSAGE value="fixed imports" />
+    <MESSAGE value="fixed runGame" />
+    <MESSAGE value="rungame" />
+    <MESSAGE value="fix on export" />
+    <MESSAGE value="bucketing and merging data" />
+    <MESSAGE value="run replication and analyze ratios" />
+    <MESSAGE value="visualize results second part" />
+    <MESSAGE value="node measures" />
+    <MESSAGE value="fix, moved functions" />
+    <MESSAGE value="working perturbe a subset of nodes both for the change fees and for the change channels" />
+    <MESSAGE value="run pick all working" />
+    <MESSAGE value="replication" />
+    <option name="LAST_COMMIT_MESSAGE" value="replication" />
+  </component>
+</project>

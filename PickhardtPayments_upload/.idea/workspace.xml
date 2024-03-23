@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="16937246-8a28-4c6c-94fb-b6685324800e" name="Changes" comment="completed equilibrium with random nodes and logging info">
+      <change afterPath="$PROJECT_DIR$/pickhardtpayments/fork/correlation/ComputeCorrelationVaryingMu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pickhardtpayments/fork/correlation/ScatterPlot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pickhardtpayments/fork/correlation/ShowCorrelationMatrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pickhardtpayments/fork/correlation/data/results_10000trans_10000SAT_0mu__distweig_linear_amountsdistfixe_1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pickhardtpayments/fork/correlation/data/results_10000trans_10000SAT_0mu_distunif_amountdistfixe_1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pickhardtpayments/fork/correlation/data/results_10000trans_10000SAT_100mu__distweig_linear_amountsdistfixe_1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pickhardtpayments/fork/correlation/data/results_10000trans_10000SAT_100mu_distunif_amountdistfixe_1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pickhardtpayments/fork/correlation/data/results_10000trans_10000SAT_10mu__distweig_linear_amountsdistfixe_1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pickhardtpayments/fork/correlation/data/results_10000trans_10000SAT_10mu_distunif_amountdistfixe_1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pickhardtpayments/fork/correlation/data/results_10000trans_10000SAT_1mu__distweig_linear_amountsdistfixe_1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pickhardtpayments/fork/replicatingstrategy/IteratedGame_HRN_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pickhardtpayments/fork/replicatingstrategy/IteratedGame_convexBC.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pickhardtpayments/fork/replicatingstrategy/read_results_top5hcn-replicates-top10hrn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pickhardtpayments/fork/replicatingstrategy/results/read_results_top5hcn-replicates-top10hrn_averages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/ComputeDemand.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickhardtpayments/fork/ComputeDemand.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/PLOTS/10_000_trans/ratio_mu_0_pickhardt_fixed_const_fees.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/PLOTS/10_000_trans/ratio_mu_0_pickhardt_fixed_original.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/PLOTS/10_000_trans/ratio_mu_10_pickhardt_fixed_const_fees_dist_norm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/PLOTS/10_000_trans/total_fee_mu_0_pickhardt_fixed_const_fees.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/PLOTS/10_000_trans/total_fee_mu_0_pickhardt_fixed_original.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/PLOTS/10_000_trans/total_fee_mu_10_pickhardt_fixed_const_fees_dist_norm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/amount_fees_mu_combinations/amount_fees_mu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/amount_fees_mu_combinations/amount_fees_mu_RANDOM_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/amount_fees_mu_combinations/amount_fees_mu_RANDOM_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/amount_fees_mu_combinations/amount_fees_mu_RANDOM_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/amount_fees_mu_combinations/amount_fees_mu_RENE_OTTO.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_uniform/read_results.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_uniform/results_10000trans_1000SAT_0mu_pickhardt_12apr2022_fixed_const_fees.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_uniform/results_10000trans_1000SAT_0mu_pickhardt_12apr2022_fixed_dist_uniform.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_uniform/results_10000trans_1000SAT_10mu_pickhardt_12apr2022_fixed_const_fees_dist_uniform.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_uniform/results_10000trans_1000SAT_20mu_sample.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_uniform/results_1000trans_1000SAT_0mu_cosimo_19jan2023_converted_dist_uniform.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_uniform/results_1000trans_1000SAT_0mu_lntrafficanalysis_2019.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_uniform/results_1000trans_1000SAT_0mu_pickhardt_12apr2022.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_uniform/results_1000trans_1000SAT_0mu_pickhardt_12apr2022_fixed.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_uniform/results_1000trans_1000SAT_0mu_pickhardt_12apr2022_fixed_const_fees.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_uniform/results_1000trans_1000SAT_100mu_pickhardt_12apr2022_fixed.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_uniform/results_1000trans_1000SAT_10mu_pickhardt_12apr2022_fixed.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_uniform/results_1000trans_1000SAT_samplesnapshot.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_uniform/results_4000trans_1000SAT_pickhardtsnapshot.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_weighted_by_capacity/read_results.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_weighted_by_capacity/results_1000trans_1000SAT_0mu_pickhardt_12apr2022_fixed_const_fees_dist_weig.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_weighted_by_capacity/results_1000trans_1000SAT_0mu_pickhardt_12apr2022_fixed_const_fees_dist_weig_quadratic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_weighted_by_capacity/results_1000trans_1000SAT_0mu_pickhardt_12apr2022_fixed_dist_weig.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_weighted_by_capacity/results_1000trans_1000SAT_0mu_preferential_attachment_14057_dist_weig_quadratic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_weighted_by_capacity/results_1000trans_1000SAT_100mu_pickhardt_12apr2022_fixed_const_fees_dist_weig.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_weighted_by_capacity/results_1000trans_1000SAT_100mu_pickhardt_12apr2022_fixed_dist_weig.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_weighted_by_capacity/results_1000trans_1000SAT_10mu_pickhardt_12apr2022_fixed_const_fees_dist_weig.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_weighted_by_capacity/results_1000trans_1000SAT_10mu_pickhardt_12apr2022_fixed_dist_weig.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_weighted_by_capacity/results_1000trans_20000SAT_0mu_pickhardt_12apr2022_fixed_const_fees_dist_weig.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_weighted_by_capacity/results_5000trans_5000SAT_0mu_pickhardt_12apr2022_fixed_const_fees_dist_weig_quadratic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/iterated_game/graphrand1000_uniform_random_metric_betwenness_fee_0_cap_1_mu0_amount500000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/iterated_game/random_metric_betwenness_fee_0.1_cap_0.9_mu0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/iterated_game/random_sample_metric_betwenness_0.5_0.5_mu1000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/iterated_game/random_sample_metric_betwenness_fee_0.1_cap_0.9_mu0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/iterated_game/random_sample_metric_betwenness_fee_0.8_cap_0.2_mu1000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/iterated_game/uniform_random_metric_betwenness_fee_0.1_cap_0.9_mu0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/iterated_game/uniform_random_metric_betwenness_fee_0.1_cap_0.9_mu0_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/iterated_game/uniform_random_metric_betwenness_fee_0_cap_1_mu0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/iterated_game/uniform_random_metric_betwenness_fee_0_cap_1_mu0_amount500000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/iterated_game/weighted_by_capacity_metric_betwenness_fee_0.1_cap_0.9_mu0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/iterated_game/weighted_by_capacity_metric_betwenness_fee_0.5_cap_0.5_mu1000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/iterated_game/weighted_by_capacity_metric_betwenness_fee_0_cap_1_correct_mu1000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/iterated_game/weighted_by_capacity_metric_betwenness_fee_1_cap_0_mu1000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/networkusefulmetrics/graphinfo.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/replicate_best_strategy/HRN_already_defined/results_1000trans_10000SAT_10mu_cosimo_19jan2023_converted_dist_weig_linear_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/replicate_best_strategy/HRN_already_defined/results_1000trans_10000SAT_10mu_cosimo_19jan2023_converted_dist_weig_linear_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/replicate_best_strategy/create_clique_and_replicate/results_1000trans_1000SAT_0mu_cosimo_19jan2023_converted_dist_unif_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/replicate_best_strategy/create_clique_and_replicate/results_1000trans_1000SAT_0mu_cosimo_19jan2023_converted_dist_unif_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/replicate_best_strategy/create_clique_and_replicate/results_1000trans_1000SAT_0mu_pickhardt_12apr2022_fixed_dist_unif_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/replicate_best_strategy/create_clique_and_replicate/results_1000trans_1000SAT_0mu_pickhardt_12apr2022_fixed_dist_unif_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/replicate_best_strategy/create_clique_and_replicate/results_1000trans_1000SAT_0mu_pickhardt_12apr2022_fixed_dist_weig_linear.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/replicate_best_strategy/create_clique_and_replicate/results_1000trans_1000SAT_0mu_preferential_attachment_100_dist_unif_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/replicate_best_strategy/create_clique_and_replicate/results_1000trans_1000SAT_0mu_preferential_attachment_100_dist_unif_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/replicate_best_strategy/create_clique_and_replicate/results_10trans_1000SAT_0mu_cosimo_19jan2023_converted_dist_unif_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/replicate_best_strategy/create_clique_and_replicate/results_10trans_1000SAT_0mu_cosimo_19jan2023_converted_dist_unif_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/replicate_best_strategy/create_clique_and_replicate/results_10trans_1000SAT_0mu_pickhardt_12apr2022_fixed_dist_unif_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/replicate_best_strategy/create_clique_and_replicate/results_10trans_1000SAT_0mu_pickhardt_12apr2022_fixed_dist_unif_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/replicate_best_strategy/create_clique_and_replicate/results_10trans_1000SAT_0mu_pickhardt_12apr2022_fixed_dist_weig_linear.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/replicate_best_strategy/decrease_liquidity_send_paym_and_replicate/results_10000trans_10000SAT_100mu_cosimo_19jan2023_converted_dist_weig_linear_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/replicate_best_strategy/decrease_liquidity_send_paym_and_replicate/results_10000trans_10000SAT_100mu_cosimo_19jan2023_converted_dist_weig_linear_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/replicate_best_strategy/decrease_liquidity_send_paym_and_replicate/results_1000trans_10000SAT_0mu_cosimo_19jan2023_converted_dist_weig_linear_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/replicate_best_strategy/decrease_liquidity_send_paym_and_replicate/results_1000trans_10000SAT_0mu_cosimo_19jan2023_converted_dist_weig_linear_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/replicate_best_strategy/decrease_liquidity_send_paym_and_replicate/results_1000trans_10000SAT_1000mu_cosimo_19jan2023_converted_dist_weig_linear_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/replicate_best_strategy/decrease_liquidity_send_paym_and_replicate/results_1000trans_10000SAT_1000mu_cosimo_19jan2023_converted_dist_weig_linear_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/replicate_best_strategy/decrease_liquidity_send_paym_and_replicate/results_1000trans_10000SAT_10mu_cosimo_19jan2023_converted_dist_weig_linear_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/replicate_best_strategy/decrease_liquidity_send_paym_and_replicate/results_1000trans_10000SAT_10mu_cosimo_19jan2023_converted_dist_weig_linear_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/replicate_best_strategy/read_results.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/simplifiednetworksimulations/labeled_results_1000trans_10000SAT_1000mu_distunif_amountdistfixe_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/pickhardtpayments/fork/correlation/data/labeled_results_1000trans_10000SAT_1000mu_distunif_amountdistfixe_1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/simplifiednetworksimulations/read_results.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/simplifiednetworksimulations/results_1000trans_10000SAT_1000mu_distunif_amountdistfixe_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/equilibrium/equilibrium.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/equilibrium/test_node_capacities.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/predictingfees/AcquireNodesMeasure.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickhardtpayments/fork/correlation/AcquireNodesMeasuresToCsv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/predictingfees/ComputeCorrelation.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickhardtpayments/fork/correlation/ComputeCorrelation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/predictingfees/GNN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/predictingfees/LabelData.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickhardtpayments/fork/correlation/LabelData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/predictingfees/NN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/predictingfees/NeuralNetwork.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/predictingfees/NeuralNetworkContinuousValues.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/predictingfees/centrality_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickhardtpayments/fork/correlation/centrality_func.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/predictingfees/graphinfo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/pickhardtpayments/fork/correlation/data/graphinfo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/predictingfees/labeled_results_10000trans_10000SAT_1000mu_distunif_amountdistfixe_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/pickhardtpayments/fork/correlation/data/labeled_results_10000trans_10000SAT_1000mu_distunif_amountdistfixe_1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/predictingfees/labeled_results_1000trans_10000SAT_1000mu_distunif_amountdistfixe_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/predictingfees/results_10000trans_10000SAT_1000mu_distunif_amountdistfixe_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/pickhardtpayments/fork/correlation/data/results_10000trans_10000SAT_1000mu_distunif_amountdistfixe_1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/predictingfees/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/preferentialattachment/PreferentialAttachmentGraphCreator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/replicatingstrategy/DecreaseLiquidityAndReplicateBestStrategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickhardtpayments/fork/replicatingstrategy/DecreaseLiquidityAndReplicateBestStrategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/replicatingstrategy/IteratedGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickhardtpayments/fork/replicatingstrategy/IteratedGame_HRN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickhardtpayments/fork/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/snapshotsanalysis/SnapshotInfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/snapshotsanalysis/node_capacity_dist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/snapshotsmanipulation/ConvertLndToCoreLightning.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/snapshotsmanipulation/FakeSnapshotCreation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/fork/snapshotsmanipulation/FixSnapshot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/pickhardtpayments/ChannelGraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickhardtpayments/pickhardtpayments/ChannelGraph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/test/amountMuCombinationTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/test/basicSimulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickhardtpayments/test/basicSimulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/test/computeImportanceTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/test/directedToUndirectedGraph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/test/infoOnHRN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/test/results_10000trans_10000SAT_1000mu_distunif_amountdistfixe_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/pickhardtpayments/fork/correlation/data/results_10000trans_10000SAT_1000mu__distweig_linear_amountsdistfixe_1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/test/results_10000trans_10000SAT_1mu_distunif_amountdistfixe_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/pickhardtpayments/fork/correlation/data/results_10000trans_10000SAT_1mu_distunif_amountdistfixe_1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/test/simplifyNetworkTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/test/simulate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/test/simulateSimplerGraph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickhardtpayments/test/testMetrics.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/pickhardtpayments" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LOY8L5nca83jdSdPZ2d7DyR2JB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/andreacarotti/Desktop/PickhardtPayments_upload",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pickhardtpayments/fork/predictingfees/data" />
+      <recent name="$PROJECT_DIR$/pickhardtpayments/fork/replicatingstrategy" />
+      <recent name="$PROJECT_DIR$/pickhardtpayments/fork/predictingfees" />
+      <recent name="$PROJECT_DIR$/pickhardtpayments/fork" />
+      <recent name="$PROJECT_DIR$/pickhardtpayments/fork/RESULTS/distribution_weighted_by_capacity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pickhardtpayments/fork/correlation" />
+      <recent name="$PROJECT_DIR$/pickhardtpayments/fork/predictingfees" />
+      <recent name="$PROJECT_DIR$/pickhardtpayments/fork/predictingfees/data" />
+      <recent name="$PROJECT_DIR$/pickhardtpayments/fork/replicatingstrategy/results/HRN/top1hcn-replicate-top10hrn-mu1_mu10_mu100" />
+      <recent name="$PROJECT_DIR$/pickhardtpayments/fork/replicatingstrategy/results/HRN" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.ShowCorrelationMatrix (1)">
+    <configuration name="ComputeCorrelation (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PickhardtPayments" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pickhardtpayments/fork/correlation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pickhardtpayments/fork/correlation/ComputeCorrelation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ComputeCorrelationVaryingMu (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PickhardtPayments" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pickhardtpayments/fork/correlation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pickhardtpayments/fork/correlation/ComputeCorrelationVaryingMu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ShowCorrelationMatrix (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PickhardtPayments" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pickhardtpayments/fork/correlation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pickhardtpayments/fork/correlation/ShowCorrelationMatrix.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="basicSimulation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PickhardtPayments" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pickhardtpayments/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pickhardtpayments/test/basicSimulation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="read_results_top5hcn-replicates-top10hrn_averages" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PickhardtPayments" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pickhardtpayments/fork/replicatingstrategy/results" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pickhardtpayments/fork/replicatingstrategy/results/read_results_top5hcn-replicates-top10hrn_averages.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.ComputeCorrelation (1)" />
+      <item itemvalue="Python.ComputeCorrelationVaryingMu (1)" />
+      <item itemvalue="Python.ShowCorrelationMatrix (1)" />
+      <item itemvalue="Python.basicSimulation" />
+      <item itemvalue="Python.read_results_top5hcn-replicates-top10hrn_averages" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ShowCorrelationMatrix (1)" />
+        <item itemvalue="Python.ComputeCorrelation (1)" />
+        <item itemvalue="Python.ComputeCorrelationVaryingMu (1)" />
+        <item itemvalue="Python.read_results_top5hcn-replicates-top10hrn_averages" />
+        <item itemvalue="Python.basicSimulation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16937246-8a28-4c6c-94fb-b6685324800e" name="Changes" comment="" />
+      <created>1675743436603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675743436603</updated>
+    </task>
+    <task id="LOCAL-00005" summary="number of routed transactions implemented">
+      <created>1676848758464</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676848758464</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixed multiple payments, split of the nodes, json adapter functions">
+      <created>1677043588150</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677043588150</updated>
+    </task>
+    <task id="LOCAL-00007" summary="info about snapshot fees">
+      <created>1677167186901</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677167186902</updated>
+    </task>
+    <task id="LOCAL-00008" summary="distribution based on capacity implemented">
+      <created>1677274235684</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677274235684</updated>
+    </task>
+    <task id="LOCAL-00009" summary="distribution based on capacity implemented">
+      <created>1677274253058</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677274253058</updated>
+    </task>
+    <task id="LOCAL-00010" summary="new simulations performed, scratch of the N.E. to compute, total_demand predictions">
+      <created>1677694734389</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677694734389</updated>
+    </task>
+    <task id="LOCAL-00011" summary="simulations files">
+      <created>1677694790500</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677694790500</updated>
+    </task>
+    <task id="LOCAL-00012" summary="implemented copy of the node strategy">
+      <created>1678415502182</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678415502182</updated>
+    </task>
+    <task id="LOCAL-00013" summary="implemented clique: removing a node and distributing the liquidity of its neighbors to new channels.">
+      <created>1678559413923</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678559413923</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fixed problems with clique and removal of highest capacity node">
+      <created>1678653699601</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678653699601</updated>
+    </task>
+    <task id="LOCAL-00015" summary="export results functions implemented">
+      <created>1678719596733</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678719596733</updated>
+    </task>
+    <task id="LOCAL-00016" summary="substitution of names method in the result dataframe for better clarity of results">
+      <created>1678727684932</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678727684932</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added verbose on the payment">
+      <created>1678802763937</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678802763937</updated>
+    </task>
+    <task id="LOCAL-00018" summary="visual network representation refactor">
+      <created>1678807717123</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1678807717123</updated>
+    </task>
+    <task id="LOCAL-00019" summary="implementing new strategy of decreasing liquidity and simulate a node, still fix to make">
+      <created>1679151817147</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1679151817147</updated>
+    </task>
+    <task id="LOCAL-00020" summary="implementing new strategy of decreasing liquidity and simulate a good performing node">
+      <created>1679578439389</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1679578439389</updated>
+    </task>
+    <task id="LOCAL-00021" summary="implementing new strategy of decreasing liquidity and simulate a good performing node">
+      <created>1679578448202</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1679578448202</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fixed read results files">
+      <created>1679578780565</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1679578780565</updated>
+    </task>
+    <task id="LOCAL-00023" summary="print on initialization of simulation">
+      <created>1679579989765</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1679579989765</updated>
+    </task>
+    <task id="LOCAL-00024" summary="pref attach graph name">
+      <created>1679590141521</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1679590141521</updated>
+    </task>
+    <task id="LOCAL-00025" summary="pref attach graph name">
+      <created>1679760261877</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1679760261877</updated>
+    </task>
+    <task id="LOCAL-00026" summary="results">
+      <created>1679760275339</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1679760275339</updated>
+    </task>
+    <task id="LOCAL-00027" summary="results">
+      <created>1679776883860</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1679776883860</updated>
+    </task>
+    <task id="LOCAL-00028" summary="results">
+      <created>1679776891757</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1679776891757</updated>
+    </task>
+    <task id="LOCAL-00029" summary="results">
+      <created>1679867489488</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1679867489488</updated>
+    </task>
+    <task id="LOCAL-00030" summary="results">
+      <created>1679867496793</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1679867496793</updated>
+    </task>
+    <task id="LOCAL-00031" summary="results">
+      <created>1679947593073</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1679947593073</updated>
+    </task>
+    <task id="LOCAL-00032" summary="results">
+      <created>1679947601643</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1679947601643</updated>
+    </task>
+    <task id="LOCAL-00033" summary="readme_fork">
+      <created>1680098113499</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1680098113499</updated>
+    </task>
+    <task id="LOCAL-00034" summary="print_node_info oracle">
+      <created>1680120315753</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1680120315754</updated>
+    </task>
+    <task id="LOCAL-00035" summary="iterated game">
+      <created>1680375417265</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1680375417265</updated>
+    </task>
+    <task id="LOCAL-00036" summary="sorting metrics">
+      <created>1680965111689</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1680965111689</updated>
+    </task>
+    <task id="LOCAL-00037" summary="sorting metrics fixed">
+      <created>1681138867491</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1681138867491</updated>
+    </task>
+    <task id="LOCAL-00038" summary="results">
+      <created>1681138880069</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1681138880069</updated>
+    </task>
+    <task id="LOCAL-00039" summary="acquiring node measures and first sketch of neural net">
+      <created>1681833894254</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1681833894254</updated>
+    </task>
+    <task id="LOCAL-00040" summary="results">
+      <created>1681833990599</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1681833990599</updated>
+    </task>
+    <task id="LOCAL-00041" summary="sketches of neural net">
+      <created>1681913639974</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1681913639974</updated>
+    </task>
+    <task id="LOCAL-00042" summary="sketches of neural net">
+      <created>1681913649731</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1681913649731</updated>
+    </task>
+    <task id="LOCAL-00043" summary="update">
+      <created>1692963687226</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1692963687227</updated>
+    </task>
+    <task id="LOCAL-00044" summary="update">
+      <created>1692963710704</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1692963710705</updated>
+    </task>
+    <task id="LOCAL-00045" summary="readme docs update">
+      <created>1692964105113</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1692964105113</updated>
+    </task>
+    <task id="LOCAL-00046" summary="readme docs update">
+      <created>1692964506748</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1692964506748</updated>
+    </task>
+    <task id="LOCAL-00047" summary="readme docs update">
+      <created>1692964570178</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1692964570178</updated>
+    </task>
+    <task id="LOCAL-00048" summary="channel_graph doc">
+      <created>1692967677198</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1692967677198</updated>
+    </task>
+    <task id="LOCAL-00049" summary="step by step process">
+      <created>1693055233229</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1693055233229</updated>
+    </task>
+    <task id="LOCAL-00050" summary="step by step process">
+      <created>1693084005284</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1693084005284</updated>
+    </task>
+    <task id="LOCAL-00051" summary="step by step process">
+      <created>1693086717506</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1693086717506</updated>
+    </task>
+    <task id="LOCAL-00052" summary="completed equilibrium with random nodes">
+      <created>1693209325957</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1693209325957</updated>
+    </task>
+    <task id="LOCAL-00053" summary="completed equilibrium with random nodes and logging info">
+      <created>1693313492497</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1693313492498</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="implemented clique: removing a node and distributing the liquidity of its neighbors to new channels." />
+    <MESSAGE value="fixed problems with clique and removal of highest capacity node" />
+    <MESSAGE value="export results functions implemented" />
+    <MESSAGE value="substitution of names method in the result dataframe for better clarity of results" />
+    <MESSAGE value="added verbose on the payment" />
+    <MESSAGE value="visual network representation refactor" />
+    <MESSAGE value="implementing new strategy of decreasing liquidity and simulate a node, still fix to make" />
+    <MESSAGE value="implementing new strategy of decreasing liquidity and simulate a good performing node" />
+    <MESSAGE value="fixed read results files" />
+    <MESSAGE value="print on initialization of simulation" />
+    <MESSAGE value="pref attach graph name" />
+    <MESSAGE value="readme_fork" />
+    <MESSAGE value="print_node_info oracle" />
+    <MESSAGE value="iterated game" />
+    <MESSAGE value="sorting metrics" />
+    <MESSAGE value="sorting metrics fixed" />
+    <MESSAGE value="acquiring node measures and first sketch of neural net" />
+    <MESSAGE value="results" />
+    <MESSAGE value="sketches of neural net" />
+    <MESSAGE value="update" />
+    <MESSAGE value="readme docs update" />
+    <MESSAGE value="channel_graph doc" />
+    <MESSAGE value="step by step process" />
+    <MESSAGE value="completed equilibrium with random nodes" />
+    <MESSAGE value="completed equilibrium with random nodes and logging info" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed equilibrium with random nodes and logging info" />
+  </component>
+</project>
